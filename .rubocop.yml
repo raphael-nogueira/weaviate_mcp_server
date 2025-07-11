@@ -1,0 +1,74 @@
+AllCops:
+  TargetRubyVersion: 3.1
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - 'vendor/**/*'
+    - 'spec/vcr_cassettes/**/*'
+
+require:
+  - rubocop-rspec
+
+Layout/LineLength:
+  Max: 120
+  AllowedPatterns: 
+    - '\A\s*#' # Allow long comments
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+    - 'Rakefile'
+
+Metrics/MethodLength:
+  Max: 20
+  Exclude:
+    - 'spec/**/*'
+    - 'examples/**/*'
+    - 'lib/weaviate_mcp_server.rb' # Main server has complex protocol handling
+
+Metrics/ClassLength:
+  Max: 150
+  Exclude:
+    - 'lib/weaviate_mcp_server.rb' # Main server class
+
+Metrics/AbcSize:
+  Max: 17
+  Exclude:
+    - 'examples/**/*'
+    - 'lib/weaviate_mcp_server.rb'
+
+Metrics/PerceivedComplexity:
+  Max: 8
+  Exclude:
+    - 'examples/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/HashSyntax:
+  EnforcedStyle: ruby19
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+# RSpec configuration
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Max: 10
+
+RSpec/MultipleMemoizedHelpers:
+  Max: 10
+
+RSpec/ReceiveMessages:
+  Enabled: false 
