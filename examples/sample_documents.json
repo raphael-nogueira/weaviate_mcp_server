@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Introdução ao Machine Learning",
+    "content": "Machine Learning é uma área da inteligência artificial que permite que sistemas aprendam automaticamente a partir de dados. Existem três tipos principais: aprendizado supervisionado, não supervisionado e por reforço. O aprendizado supervisionado usa dados rotulados para treinar modelos que podem fazer previsões sobre novos dados.",
+    "category": "tecnologia",
+    "author": "Dr. João Silva",
+    "created_at": "2024-01-15T10:00:00Z"
+  },
+  {
+    "title": "Redes Neurais Artificiais",
+    "content": "As redes neurais artificiais são modelos computacionais inspirados no funcionamento do cérebro humano. Elas consistem em camadas de neurônios artificiais conectados que processam informações. São especialmente eficazes em reconhecimento de padrões, visão computacional e processamento de linguagem natural.",
+    "category": "tecnologia",
+    "author": "Dra. Maria Santos",
+    "created_at": "2024-01-16T14:30:00Z"
+  },
+  {
+    "title": "Deep Learning e suas Aplicações",
+    "content": "Deep Learning é uma subcategoria do machine learning que usa redes neurais com muitas camadas. Tem sido revolucionário em áreas como reconhecimento de imagem, tradução automática, assistentes virtuais e carros autônomos. As arquiteturas mais populares incluem CNNs, RNNs e Transformers.",
+    "category": "tecnologia",
+    "author": "Prof. Carlos Lima",
+    "created_at": "2024-01-17T09:15:00Z"
+  },
+  {
+    "title": "Processamento de Linguagem Natural",
+    "content": "O Processamento de Linguagem Natural (NLP) é o ramo da IA que lida com a interação entre computadores e linguagem humana. Inclui tarefas como análise de sentimento, tradução automática, sumarização de texto e chatbots. Modelos como BERT, GPT e T5 revolucionaram a área.",
+    "category": "tecnologia",
+    "author": "Dra. Ana Costa",
+    "created_at": "2024-01-18T16:45:00Z"
+  },
+  {
+    "title": "Ética em Inteligência Artificial",
+    "content": "A ética em IA é um campo crucial que aborda questões como viés algorítmico, privacidade de dados, transparência de decisões automatizadas e o impacto social da automação. É importante desenvolver IA responsável que beneficie toda a sociedade de forma justa e equitativa.",
+    "category": "ética",
+    "author": "Dr. Roberto Oliveira",
+    "created_at": "2024-01-19T11:20:00Z"
+  }
+] 
